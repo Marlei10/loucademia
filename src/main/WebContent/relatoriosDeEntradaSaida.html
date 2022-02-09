@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html	lang ="pt-br">
+
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>loucademia</title>
+	<link rel="stylesheet" type="text/css" href="css/Loucademia_Estilo.css">
+	</head>
+	
+	<body>
+	  <header>
+		<img width = 350px height =90px src="images/LoucademiaLancamento_Caixinha.png">
+		<nav>
+			<div>
+			<a href = "novoAluno.html">Novo aluno</a><br>
+			<a href = "pesquisaDeAluno.html">Pesquisa de aluno</a><br>
+			<a href = "controleDeAcesso.html">Controle de acesso</a><br>
+			<a href = "relatoriosDeEntradaSaida.html">Relatórios de entradas e saídas</a><br>
+			<a href = "relatoriosDeSituacoes.html">Relatórios de situações</a><br>
+			</div>
+		</nav>
+      </header>
+		
+	<h1>Relatório de Entradas e Saídas</h1>
+		<div id="infoMessage">
+		(Aqui vai uma eventual menssagem de sistema confirmando sucesso ou erro)
+		</div>
+		<br>
+		
+	<form>
+		<fieldset>
+			<legend>Relatório de Entradas e Saídas</legend>	
+			<label for="id">ID</label><br>
+			<input type="text" name="id" id="id"><br>
+			
+			<label for="DataInicial">Data inicial</label><br>
+			<input type="date" name="dataincial" id="dataInicial"><br>
+			<label for ="dataFinal">Data final</label><br>
+			<input type="date"  name="dataFinal" id="DataFinal">
+			
+		</fieldset><br>
+		<input type="submit" value ="gerar Relatório">	
+	</form>
+		
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+				<th>Entrada</th>
+				<th>Saída</th>
+				<th>Duração</th>
+			</tr>
+			<tr>
+			<th>1</th>
+			<th>Marlei</th>
+			<th>05/03/2019 09:15:56</th>
+			<th>05/03/2019 10:45:56</th>
+			<th>00:50</th>
+			</tr>
+		</table>
+		
+	</body>
+</html>

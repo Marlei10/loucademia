@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html	lang ="pt-br">
+
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Relatório de Situações</title>
+		<link rel="stylesheet" type="text/css" href="css/Loucademia_Estilo.css">
+	</head>
+	
+	<body>
+		<header>
+		<img width = 350px height =90px src="images/LoucademiaLancamento_Caixinha.png">
+		<nav>
+			<div>
+			<a href = "novoAluno.html">Novo aluno</a><br>
+			<a href = "pesquisaDeAluno.html">Pesquisa de aluno</a><br>
+			<a href = "controleDeAcesso.html">Controle de acesso</a><br>
+			<a href = "relatoriosDeEntradaSaida.html">Relatórios de entradas e saídas</a><br>
+			<a href = "relatoriosDeSituacoes.html">Relatórios de situações</a><br>
+			</div>
+			<br>
+		</nav>
+		</header>
+		
+		<h1>Relatório de Situações</h1>
+		
+		<div id="infoMessage">
+		(Aqui vai uma eventual menssagem de sistema confirmando sucesso ou erro)
+		
+		</div>
+		<br>
+		
+		<form>
+			<fieldset>
+			<legend>Parâmetro da Pesquisa</legend>
+			
+		<legend>Situação</legend>	
+			<label for="situacao">Situação</label>
+			<select name="situacao" id="situacao">
+			<option>Ativo</option>
+			<option>Inativo</option>
+			<option>Com pendência</option>
+		</select>
+			</fieldset>
+			
+		<br>
+		
+		<input type="submit" value ="Gerar Relatório">
+			
+		</form>
+		
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+				<th>Situação</th>
+				<th>Celular</th>
+				<th>Fixo</th>			
+				<th>Ações</th>
+			</tr>
+			
+			<tr>
+			<td>1</td>
+			<td>Marlei</td>
+			<td>Ativo</td>
+			<td>998078806</td>
+			<td>33532624</td>
+			<td>
+				<input type = "button" value="Editar">
+				<input type ="button" value="Excluir">
+			<td>
+			
+			</tr>
+			<tr>
+			<td>2</td>
+			<td>Lucao</td>
+			<td>Ativo</td>
+			<td>99978106</td>
+			<td>33532424</td>
+			<td>
+				<input type = "button" value="Editar">
+				<input type ="button" value="Excluir">
+			<td>
+			</tr>
+		
+		</table>
+		
+		
+		</body>
+		</html>
+		
+		
+		
+		
